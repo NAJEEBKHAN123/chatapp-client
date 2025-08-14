@@ -3,7 +3,7 @@ import { useChatStore } from "../store/useChatStore";
 import { useAuthStore } from "../store/useAuthStore";
 import ChatHeader from "./ChatHeader";
 import MessageSkeleton from "./skeletons/MessageSkeleton";
-import { formatMessageTime } from "../../../backend/utils/utile";
+import { formatMessageTime } from "../utils/formatMessageTime";
 import MessageInput from "./MessageInput";
 
 
